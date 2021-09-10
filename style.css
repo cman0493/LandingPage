@@ -39,7 +39,7 @@ a {
     background-size: cover;
 }
 #content {
-    color: black;
+    color: navy;
     z-index: 1;
     text-align: center;
 }
@@ -68,20 +68,26 @@ h2 {
     margin: 40px 0px;
 }
 .topnav {
-    background-color: white;
+    background-color: silver;
     overflow: hidden;
     z-index: 2;
     position: fixed;
     width: 100%;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
   }
   .topnav a {
     float: left;
-    color: Black;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+    -webkit-background-clip: text;
+    color: transparent;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
   }
   .topnav a:hover {
     background-color: #ddd;
@@ -89,4 +95,12 @@ h2 {
   }
 i {
     font-size: 50px;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#one {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+    -webkit-background-clip: text;
+    color: transparent;
 }
