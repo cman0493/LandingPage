@@ -38,14 +38,6 @@ a {
     background-position: center;
     background-size: cover;
 }
-#cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-}
 #content {
     color: black;
     z-index: 1;
@@ -69,17 +61,32 @@ a {
     padding: 50px;
     text-align: center;
 }
-p {
-    font-size: 23px;
-    margin: auto;
-}
 h2 {
     font-size: 39px;
 }
 #about h2 {
     margin: 40px 0px;
 }
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  .topnav a {
+    float: left;
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: blue;
+  }
 i {
     font-size: 50px;
-    margin: 0px 5px;
 }
