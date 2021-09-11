@@ -103,3 +103,24 @@ i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+@media screen and (min-width: 600px) {
+    .topnav {
+        display: flex;
+    }
+    .topnav a.icon {
+        display: none;
+    }
+}
